@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nofogbymrsocks",
+	"version": "${version}",
+	"name": "No Fog by MrSocks",
+	"description": "This is my basic attempt to do a no fog mod after the one I was using stopped getting updated.",
+	"authors": [
+		"MrSocks75"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/nofogbymrsocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.mrsocks.nofog.NoFogByMrSocks"
+		],
+		"fabric-datagen": [
+			"xyz.mrsocks.nofog.NoFogByMrSocksDataGenerator"
+		],
+		"client": [
+			"xyz.mrsocks.nofog.NoFogByMrSocksClient"
+		]
+	},
+	"mixins": [
+		"nofogbymrsocks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
