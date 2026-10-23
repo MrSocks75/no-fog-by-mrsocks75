@@ -1,4 +1,4 @@
-package xyz.mrsocks.nofog;
+package dev.mrsocks.nofog;
 
 import net.fabricmc.api.ModInitializer;
 
