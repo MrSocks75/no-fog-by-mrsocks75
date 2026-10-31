@@ -10,7 +10,7 @@
 
 ## Installation
 
-1. Install a compatible mod loader (Fabrice) on your system.
+1. Install a compatible mod loader (Fabric) on your system.
 2. Download the latest `.jar` file from the releases page.
 3. Place the file into your Minecraft `mods` directory.
 4. Launch the game.
